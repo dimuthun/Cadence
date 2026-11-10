@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Cadence mark: a rhythm pulse ending in a beat dot, kept inside the 66dp adaptive safe zone. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <path
+        android:pathData="M30,56L40,56L46,42L56,70L62,56L70,56"
+        android:strokeWidth="5"
+        android:strokeColor="#FFFFFFFF"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+    <path
+        android:fillColor="@color/cadence_accent"
+        android:pathData="M78,56m-5,0a5,5 0,1 1,10 0a5,5 0,1 1,-10 0" />
+</vector>

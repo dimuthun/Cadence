@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    HTTP request actions often target devices on the local network (smart-home hubs, routers,
+    self-hosted services) that only speak plain http://, so cleartext is permitted for
+    user-configured requests. https:// certificates are still validated against the system
+    trust store; user-installed CAs are not trusted. The editor warns when an http:// URL is used.
+-->
+<network-security-config>
+    <base-config cleartextTrafficPermitted="true">
+        <trust-anchors>
+            <certificates src="system" />
+        </trust-anchors>
+    </base-config>
+</network-security-config>

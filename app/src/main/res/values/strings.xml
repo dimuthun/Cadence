@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Cadence</string>
+
+    <!-- Notification channels -->
+    <string name="channel_engine_status_name">Automation status</string>
+    <string name="channel_engine_status_description">Shows that Cadence is watching for your triggers. Required by Android to keep automations running.</string>
+    <string name="channel_macro_notifications_name">Macro notifications</string>
+    <string name="channel_macro_notifications_description">Notifications created by your macros.</string>
+    <string name="channel_action_required_name">Action needed</string>
+    <string name="channel_action_required_description">Shown when Android requires you to finish a step, like toggling Wi-Fi.</string>
+
+    <!-- Foreground service notification -->
+    <string name="engine_status_title">Cadence is running</string>
+    <plurals name="engine_status_text">
+        <item quantity="one">Watching %d macro</item>
+        <item quantity="other">Watching %d macros</item>
+    </plurals>
+
+    <!-- Action prompts (when Android blocks a direct action from the background) -->
+    <string name="prompt_wifi_on">Tap to turn on Wi-Fi</string>
+    <string name="prompt_wifi_off">Tap to turn off Wi-Fi</string>
+    <string name="prompt_bluetooth_on">Tap to turn on Bluetooth</string>
+    <string name="prompt_bluetooth_off">Tap to turn off Bluetooth</string>
+    <string name="prompt_open_app">Tap to open %1$s</string>
+    <string name="prompt_open_url">Tap to open link</string>
+    <string name="prompt_text">Requested by macro \"%1$s\"</string>
+
+    <!-- Notification listener -->
+    <string name="notification_listener_label">Cadence notification triggers</string>
+</resources>

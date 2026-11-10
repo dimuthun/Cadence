@@ -1,0 +1,51 @@
+package com.cadence.presentation.theme
+
+import androidx.compose.ui.graphics.Color
+
+// Cadence brand palette: deep teal primary, slate secondary, warm amber tertiary.
+
+// Light scheme
+val TealPrimaryLight = Color(0xFF00696B)
+val OnTealPrimaryLight = Color(0xFFFFFFFF)
+val TealContainerLight = Color(0xFF9CF1F2)
+val OnTealContainerLight = Color(0xFF002021)
+val SlateSecondaryLight = Color(0xFF4A6364)
+val OnSlateSecondaryLight = Color(0xFFFFFFFF)
+val SlateContainerLight = Color(0xFFCCE8E8)
+val OnSlateContainerLight = Color(0xFF051F20)
+val AmberTertiaryLight = Color(0xFF8A5100)
+val OnAmberTertiaryLight = Color(0xFFFFFFFF)
+val AmberContainerLight = Color(0xFFFFDCBE)
+val OnAmberContainerLight = Color(0xFF2C1600)
+val ErrorLight = Color(0xFFBA1A1A)
+val OnErrorLight = Color(0xFFFFFFFF)
+val ErrorContainerLight = Color(0xFFFFDAD6)
+val OnErrorContainerLight = Color(0xFF410002)
+val BackgroundLight = Color(0xFFF5FBFA)
+val OnBackgroundLight = Color(0xFF161D1D)
+val SurfaceVariantLight = Color(0xFFDAE4E4)
+val OnSurfaceVariantLight = Color(0xFF3F4949)
+val OutlineLight = Color(0xFF6F7979)
+
+// Dark scheme
+val TealPrimaryDark = Color(0xFF80D4D5)
+val OnTealPrimaryDark = Color(0xFF003738)
+val TealContainerDark = Color(0xFF004F51)
+val OnTealContainerDark = Color(0xFF9CF1F2)
+val SlateSecondaryDark = Color(0xFFB0CCCC)
+val OnSlateSecondaryDark = Color(0xFF1B3435)
+val SlateContainerDark = Color(0xFF324B4C)
+val OnSlateContainerDark = Color(0xFFCCE8E8)
+val AmberTertiaryDark = Color(0xFFFFB870)
+val OnAmberTertiaryDark = Color(0xFF4A2800)
+val AmberContainerDark = Color(0xFF693C00)
+val OnAmberContainerDark = Color(0xFFFFDCBE)
+val ErrorDark = Color(0xFFFFB4AB)
+val OnErrorDark = Color(0xFF690005)
+val ErrorContainerDark = Color(0xFF93000A)
+val OnErrorContainerDark = Color(0xFFFFDAD6)
+val BackgroundDark = Color(0xFF0E1515)
+val OnBackgroundDark = Color(0xFFDDE4E3)
+val SurfaceVariantDark = Color(0xFF3F4949)
+val OnSurfaceVariantDark = Color(0xFFBEC8C8)
+val OutlineDark = Color(0xFF889392)
